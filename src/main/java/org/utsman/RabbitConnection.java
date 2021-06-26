@@ -59,7 +59,7 @@ public class RabbitConnection {
         }
     }
 
-    static class Builder {
+    public static class Builder {
         private String queueName;
 
         public Builder setQueueName(String queueName) {
